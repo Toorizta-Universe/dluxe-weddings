@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Explicit allow for citation-friendly AI crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://toorizta-universe.github.io/dluxe-weddings/sitemap.xml
