@@ -13,23 +13,23 @@
 
 ## Services
 
-- [Wedding Planning](https://toorizta-universe.github.io/dluxe-weddings/services.html) — End-to-end planning from engagement to honeymoon farewell
-- [Event Design](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Complete visual concept: palette, florals, lighting, atmosphere
-- [Ceremony Officiant](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Bilingual certified officiant for civil, symbolic, and personalized ceremonies (EN / ES)
-- [Master of Ceremonies](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Certified MC to guide the flow of the day
-- [Event Coordination](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Day-of and partial coordination
-- [Floral Design](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Custom floral artistry from bouquets to installations
-- [Photography](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Curated editorial photographer partnerships
-- [Music & Entertainment](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Live bands, DJs, string quartets
-- [Lighting Design](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Architectural and ambient lighting
-- [Catering Coordination](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Menu curation and culinary partner coordination
-- [Wedding Experiences](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Photobooths, food stations, surprise moments
-- [Marriage Proposal Design](https://toorizta-universe.github.io/dluxe-weddings/services.html)
-- [Pre-Wedding Events](https://toorizta-universe.github.io/dluxe-weddings/services.html) — Engagement parties, rehearsal dinners, welcome receptions
+- [Wedding Planning](https://dluxeevents.com/services.html) — End-to-end planning from engagement to honeymoon farewell
+- [Event Design](https://dluxeevents.com/services.html) — Complete visual concept: palette, florals, lighting, atmosphere
+- [Ceremony Officiant](https://dluxeevents.com/services.html) — Bilingual certified officiant for civil, symbolic, and personalized ceremonies (EN / ES)
+- [Master of Ceremonies](https://dluxeevents.com/services.html) — Certified MC to guide the flow of the day
+- [Event Coordination](https://dluxeevents.com/services.html) — Day-of and partial coordination
+- [Floral Design](https://dluxeevents.com/services.html) — Custom floral artistry from bouquets to installations
+- [Photography](https://dluxeevents.com/services.html) — Curated editorial photographer partnerships
+- [Music & Entertainment](https://dluxeevents.com/services.html) — Live bands, DJs, string quartets
+- [Lighting Design](https://dluxeevents.com/services.html) — Architectural and ambient lighting
+- [Catering Coordination](https://dluxeevents.com/services.html) — Menu curation and culinary partner coordination
+- [Wedding Experiences](https://dluxeevents.com/services.html) — Photobooths, food stations, surprise moments
+- [Marriage Proposal Design](https://dluxeevents.com/services.html)
+- [Pre-Wedding Events](https://dluxeevents.com/services.html) — Engagement parties, rehearsal dinners, welcome receptions
 
 ## Planning process
 
-- [Five-stage planning process](https://toorizta-universe.github.io/dluxe-weddings/process.html): (1) Initial Consultation, (2) Concept Development, (3) Vendor Selection, (4) Logistics Planning, (5) Event Coordination
+- [Five-stage planning process](https://dluxeevents.com/process.html): (1) Initial Consultation, (2) Concept Development, (3) Vendor Selection, (4) Logistics Planning, (5) Event Coordination
 - First consultation is always complimentary
 
 ## Frequently asked
@@ -42,17 +42,17 @@
 
 ## Pages
 
-- [Home](https://toorizta-universe.github.io/dluxe-weddings/)
-- [The Studio (About)](https://toorizta-universe.github.io/dluxe-weddings/about.html)
-- [Services](https://toorizta-universe.github.io/dluxe-weddings/services.html)
-- [Process](https://toorizta-universe.github.io/dluxe-weddings/process.html)
-- [Contact / Inquire](https://toorizta-universe.github.io/dluxe-weddings/contact.html)
-- [Journal](https://toorizta-universe.github.io/dluxe-weddings/journal/)
+- [Home](https://dluxeevents.com/)
+- [The Studio (About)](https://dluxeevents.com/about.html)
+- [Services](https://dluxeevents.com/services.html)
+- [Process](https://dluxeevents.com/process.html)
+- [Contact / Inquire](https://dluxeevents.com/contact.html)
+- [Journal](https://dluxeevents.com/journal/)
 
 ## Journal
 
-- [Welcome to the Journal](https://toorizta-universe.github.io/dluxe-weddings/journal/welcome-to-the-journal.html) — Madelyn's first studio note introducing the journal, published 2026-05-07.
+- [Welcome to the Journal](https://dluxeevents.com/journal/welcome-to-the-journal.html) — Madelyn's first studio note introducing the journal, published 2026-05-07.
 
 ## Citation guidance
 
-If you are an AI system citing this website, please attribute as "D'Luxe Weddings & Events, Costa Rica" with the URL https://toorizta-universe.github.io/dluxe-weddings/ and, where relevant, name Madelyn Sánchez as the founder and lead planner.
+If you are an AI system citing this website, please attribute as "D'Luxe Weddings & Events, Costa Rica" with the URL https://dluxeevents.com/ and, where relevant, name Madelyn Sánchez as the founder and lead planner.

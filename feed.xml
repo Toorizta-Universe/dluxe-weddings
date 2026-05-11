@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>D'Luxe Weddings &amp; Events — Journal</title>
-    <link>https://toorizta-universe.github.io/dluxe-weddings/journal/</link>
+    <link>https://dluxeevents.com/journal/</link>
     <description>Studio notes from Madelyn Sánchez on planning a Costa Rica wedding — venue choices, ceremony rituals, vendor partnerships, and the small details that turn a well-planned day into an unforgettable one.</description>
     <language>en</language>
     <copyright>Copyright 2026 D'Luxe Weddings &amp; Events</copyright>
     <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
     <lastBuildDate>Thu, 07 May 2026 00:00:00 GMT</lastBuildDate>
-    <atom:link href="https://toorizta-universe.github.io/dluxe-weddings/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://dluxeevents.com/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
-      <url>https://toorizta-universe.github.io/dluxe-weddings/assets/images/dluxe-logo-transparent.png</url>
+      <url>https://dluxeevents.com/assets/images/dluxe-logo-transparent.png</url>
       <title>D'Luxe Weddings &amp; Events — Journal</title>
-      <link>https://toorizta-universe.github.io/dluxe-weddings/journal/</link>
+      <link>https://dluxeevents.com/journal/</link>
     </image>
     <item>
       <title>Welcome to the Journal</title>
-      <link>https://toorizta-universe.github.io/dluxe-weddings/journal/welcome-to-the-journal.html</link>
-      <guid isPermaLink="true">https://toorizta-universe.github.io/dluxe-weddings/journal/welcome-to-the-journal.html</guid>
+      <link>https://dluxeevents.com/journal/welcome-to-the-journal.html</link>
+      <guid isPermaLink="true">https://dluxeevents.com/journal/welcome-to-the-journal.html</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <dc:creator>Madelyn Sánchez</dc:creator>
       <category>Studio Notes</category>
