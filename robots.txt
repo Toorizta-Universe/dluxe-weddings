@@ -26,4 +26,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://dluxeevents.com/sitemap.xml
+Sitemap: https://dluxeweddings.com/sitemap.xml
