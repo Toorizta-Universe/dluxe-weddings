@@ -105,6 +105,50 @@
 
 <!-- ============== HERO ============== -->
 <header class="hero">
+
+  <!-- SVG defs for hero particle shapes (reused via <use href>) -->
+  <svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="hp-ring" viewBox="0 0 28 18">
+        <circle cx="9" cy="9" r="7"/>
+        <circle cx="19" cy="9" r="7"/>
+      </symbol>
+      <symbol id="hp-leaf" viewBox="0 0 24 32">
+        <path d="M12 2 C20 9, 22 20, 16 28 L12 30 L8 28 C2 20, 4 9, 12 2 Z"/>
+        <path d="M12 4 L12 28"/>
+      </symbol>
+      <symbol id="hp-orchid" viewBox="0 0 28 28">
+        <ellipse cx="14" cy="7" rx="3" ry="5"/>
+        <ellipse cx="14" cy="21" rx="3" ry="5"/>
+        <ellipse cx="7" cy="14" rx="5" ry="3"/>
+        <ellipse cx="21" cy="14" rx="5" ry="3"/>
+        <circle cx="14" cy="14" r="1.6"/>
+      </symbol>
+      <symbol id="hp-petal" viewBox="0 0 14 22">
+        <path d="M7 1 C12 6, 13 14, 7 21 C1 14, 2 6, 7 1 Z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <div class="hero-particles" aria-hidden="true">
+    <span class="hp" style="left:7%;  width:30px; height:19px; --d:-2s;  --dur:28s; --x:30px;  --r:-120deg; --o:.18;"><svg><use href="#hp-ring"/></svg></span>
+    <span class="hp" style="left:13%; width:22px; height:30px; --d:-12s; --dur:34s; --x:-40px; --r:180deg;  --o:.14;"><svg><use href="#hp-leaf"/></svg></span>
+    <span class="hp" style="left:22%; width:14px; height:22px; --d:-5s;  --dur:24s; --x:20px;  --r:90deg;   --o:.22;"><svg><use href="#hp-petal"/></svg></span>
+    <span class="hp" style="left:31%; width:24px; height:24px; --d:-18s; --dur:38s; --x:-25px; --r:-180deg; --o:.16;"><svg><use href="#hp-orchid"/></svg></span>
+    <span class="hp" style="left:40%; width:22px; height:30px; --d:-8s;  --dur:30s; --x:35px;  --r:150deg;  --o:.15;"><svg><use href="#hp-leaf"/></svg></span>
+    <span class="hp" style="left:48%; width:26px; height:17px; --d:-22s; --dur:26s; --x:-30px; --r:-90deg;  --o:.18;"><svg><use href="#hp-ring"/></svg></span>
+    <span class="hp" style="left:57%; width:26px; height:36px; --d:-3s;  --dur:36s; --x:40px;  --r:220deg;  --o:.12;"><svg><use href="#hp-leaf"/></svg></span>
+    <span class="hp" style="left:66%; width:22px; height:22px; --d:-14s; --dur:32s; --x:-20px; --r:-150deg; --o:.20;"><svg><use href="#hp-orchid"/></svg></span>
+    <span class="hp" style="left:74%; width:18px; height:28px; --d:-7s;  --dur:28s; --x:25px;  --r:120deg;  --o:.16;"><svg><use href="#hp-leaf"/></svg></span>
+    <span class="hp" style="left:82%; width:32px; height:21px; --d:-16s; --dur:24s; --x:-35px; --r:180deg;  --o:.22;"><svg><use href="#hp-ring"/></svg></span>
+    <span class="hp" style="left:89%; width:28px; height:28px; --d:-25s; --dur:40s; --x:30px;  --r:-200deg; --o:.13;"><svg><use href="#hp-orchid"/></svg></span>
+    <span class="hp" style="left:95%; width:12px; height:18px; --d:-10s; --dur:22s; --x:-15px; --r:90deg;   --o:.18;"><svg><use href="#hp-petal"/></svg></span>
+    <span class="hp" style="left:17%; width:24px; height:32px; --d:-28s; --dur:34s; --x:20px;  --r:-130deg; --o:.15;"><svg><use href="#hp-leaf"/></svg></span>
+    <span class="hp" style="left:36%; width:24px; height:15px; --d:-19s; --dur:26s; --x:-25px; --r:180deg;  --o:.20;"><svg><use href="#hp-ring"/></svg></span>
+    <span class="hp" style="left:52%; width:20px; height:20px; --d:-11s; --dur:32s; --x:30px;  --r:90deg;   --o:.17;"><svg><use href="#hp-orchid"/></svg></span>
+    <span class="hp" style="left:78%; width:14px; height:22px; --d:-24s; --dur:28s; --x:-20px; --r:-180deg; --o:.19;"><svg><use href="#hp-petal"/></svg></span>
+  </div>
+
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <span class="eyebrow">Wedding Planning Studio · Costa Rica</span>
