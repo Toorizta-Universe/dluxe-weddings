@@ -1167,17 +1167,90 @@ section.tight { padding: clamp(3rem, 5vw, 4rem) 0; }
 .post-meta time { color: var(--ink-soft); }
 
 .post { padding: 0 0 clamp(4rem, 7vw, 6rem); }
-/* Slightly more generous article column on wider screens; still stays
-   within readable bounds (max ~75ch). Body inherits the wrap-prose
-   container but we override its cap here so it breathes more on desktop. */
-.post-body { max-width: clamp(720px, 52vw, 880px); }
+
+/* Post body uses the fluid (full-width) container.
+   Inside, prose elements have readable max-widths centered in the column.
+   Special elements (tables, callouts, FAQ, TLDR) break out wider for an
+   editorial magazine feel on big screens — text never goes wider than
+   ~75ch because long lines kill readability. */
 .post-body {
   font-family: var(--font-body);
   font-size: 1.08rem;
   line-height: 1.75;
   color: var(--ink);
 }
-.post-body > p { margin-bottom: 1.75rem; max-width: none; }
+
+/* Readable prose elements — always centered, capped */
+.post-body > p,
+.post-body > ul,
+.post-body > ol,
+.post-body > .post-list,
+.post-body > .post-signoff,
+.post-body > .post-next-empty {
+  max-width: 72ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-body > p { margin-bottom: 1.75rem; }
+.post-body > h2 {
+  max-width: 26ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-body > h3,
+.post-body > h4 {
+  max-width: 32ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Editorial breakouts — wider on big screens, scale fluidly */
+.post-body > .post-tldr {
+  max-width: clamp(720px, 55vw, 1000px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-body > .post-toc {
+  max-width: clamp(720px, 55vw, 1000px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-body > .post-callout {
+  max-width: clamp(720px, 60vw, 1100px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-body > .post-faq {
+  max-width: clamp(720px, 65vw, 1200px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-body > .post-table-wrap {
+  max-width: clamp(720px, 75vw, 1500px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile: collapse all inner caps so everything fills the viewport
+   (the wrap-fluid outer padding handles gutters) */
+@media (max-width: 768px) {
+  .post-body > p,
+  .post-body > ul,
+  .post-body > ol,
+  .post-body > h2,
+  .post-body > h3,
+  .post-body > h4,
+  .post-body > .post-list,
+  .post-body > .post-signoff,
+  .post-body > .post-tldr,
+  .post-body > .post-toc,
+  .post-body > .post-callout,
+  .post-body > .post-faq,
+  .post-body > .post-table-wrap,
+  .post-body > .post-next-empty {
+    max-width: none;
+  }
+}
 .post-body > h2 {
   font-family: var(--font-display);
   font-weight: 400;

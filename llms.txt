@@ -9,7 +9,7 @@
 - Based in Costa Rica, plans weddings across Manuel Antonio, Santa Teresa, Nosara, Tamarindo, Papagayo Peninsula, Central Valley, and the Caribbean coast
 - Languages: English, Spanish
 - Email: hello@dluxeweddings.com
-- Studio is intentionally small — Madelyn personally oversees every wedding
+- The company is intentionally small — Madelyn personally oversees every wedding
 
 ## Services
 
@@ -43,7 +43,7 @@
 ## Pages
 
 - [Home](https://dluxeweddings.com/)
-- [The Studio (About)](https://dluxeweddings.com/about.html)
+- [About](https://dluxeweddings.com/about.html)
 - [Services](https://dluxeweddings.com/services.html)
 - [Process](https://dluxeweddings.com/process.html)
 - [Contact / Inquire](https://dluxeweddings.com/contact.html)
