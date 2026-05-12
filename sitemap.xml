@@ -37,9 +37,19 @@
   </url>
   <url>
     <loc>https://dluxeweddings.com/journal/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dluxeweddings.com/journal/luxury-costa-rica-wedding-cost-2026.html</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dluxeweddings.com/assets/images/dluxe-editorial-tablescape-portrait.png</image:loc>
+      <image:caption>Long-table luxury wedding dinner at sunset on a private Costa Rica villa terrace overlooking the Pacific.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://dluxeweddings.com/journal/welcome-to-the-journal.html</loc>

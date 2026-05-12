@@ -1325,6 +1325,161 @@ section.tight { padding: clamp(3rem, 5vw, 4rem) 0; }
 .link-underline:hover { color: var(--brass-deep); }
 
 /* ==========================================================
+   Long-form editorial article: tables, callouts, sub-heads
+   ========================================================== */
+
+.post-body h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  line-height: 1.25;
+  margin: 3rem 0 1.25rem;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+}
+.post-body h2 .it { font-style: italic; color: var(--brass-deep); }
+.post-body h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.15rem, 1.7vw, 1.35rem);
+  line-height: 1.3;
+  margin: 2.25rem 0 0.85rem;
+  color: var(--ink);
+  font-style: italic;
+}
+.post-body h2 + p,
+.post-body h3 + p { margin-top: 0; }
+
+.post-table-wrap {
+  margin: 1.75rem 0 2.25rem;
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  background: var(--paper);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.post-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-family: var(--font-body);
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+.post-table caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brass-deep);
+  padding: 1rem 1.25rem 0.6rem;
+}
+.post-table thead th {
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid var(--hairline);
+  background: var(--paper-deep);
+}
+.post-table tbody td {
+  padding: 0.8rem 1.1rem;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--ink);
+  vertical-align: top;
+}
+.post-table tbody tr:last-child td { border-bottom: none; }
+.post-table tbody tr:nth-child(odd) td { background: transparent; }
+.post-table tbody tr.is-total td {
+  font-weight: 600;
+  background: var(--paper-deep);
+  border-top: 1px solid var(--brass);
+  border-bottom: none;
+}
+.post-table .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.post-table .pct { text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-soft); white-space: nowrap; }
+.post-table .note { color: var(--ink-soft); font-size: 0.85rem; }
+
+.post-callout {
+  margin: 2rem 0;
+  padding: 1.4rem 1.5rem 1.4rem 1.75rem;
+  border-left: 2px solid var(--brass);
+  background: var(--paper-deep);
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.post-callout strong { color: var(--brass-deep); font-weight: 600; }
+.post-callout p { margin: 0; }
+.post-callout p + p { margin-top: 0.6rem; }
+
+.post-author-bio {
+  margin-top: 3.5rem;
+  padding: 1.75rem 0 0;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.post-author-bio strong { color: var(--ink); font-weight: 500; }
+.post-author-bio a { color: var(--brass-deep); border-bottom: 1px solid var(--brass); }
+.post-author-bio em { font-style: italic; }
+.post-update-note {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.post-toc {
+  margin: 2rem 0 2.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--hairline);
+  background: var(--paper);
+}
+.post-toc-title {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--brass-deep);
+  margin: 0 0 0.85rem;
+}
+.post-toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: toc;
+  columns: 2;
+  column-gap: 2rem;
+}
+@media (max-width: 640px) { .post-toc ol { columns: 1; } }
+.post-toc li {
+  counter-increment: toc;
+  padding: 0.3rem 0;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  break-inside: avoid;
+}
+.post-toc li::before {
+  content: counter(toc, decimal-leading-zero);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  color: var(--brass);
+  margin-right: 0.7rem;
+}
+.post-toc a { color: var(--ink); }
+.post-toc a:hover { color: var(--brass-deep); }
+
+/* ==========================================================
    WhatsApp bubble — fixed, bottom-right, moss + brass glyph
    ========================================================== */
 
