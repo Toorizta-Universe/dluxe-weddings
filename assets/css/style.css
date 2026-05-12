@@ -1026,18 +1026,26 @@ section.tight { padding: clamp(3rem, 5vw, 4rem) 0; }
 
 .journal-card-link {
   display: grid;
-  grid-template-columns: 5fr 7fr;
-  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: 6fr 7fr;
+  gap: clamp(2rem, 5vw, 6rem);
   align-items: center;
   color: inherit;
   transition: opacity .35s ease;
 }
+
+/* Journal page heading — restrained, less overpowering than other inner pages */
+.page-head.journal-head { padding: 9rem 0 3rem; }
+.page-head.journal-head h1 {
+  font-size: clamp(2.75rem, 7vw, 6rem);
+  margin-bottom: 1.5rem;
+}
+.page-head.journal-head .lede { max-width: 48ch; font-size: clamp(1.15rem, 1.7vw, 1.45rem); }
 .journal-card-link:hover { color: inherit; }
 .journal-card-link:hover .journal-card-title { color: var(--brass-deep); }
 .journal-card-link:hover .journal-card-img { filter: saturate(1.15) brightness(1.03); }
 
 .journal-card-img {
-  aspect-ratio: 4/5;
+  aspect-ratio: 5/4;
   background-size: cover;
   background-position: center;
   filter: saturate(1.05);
